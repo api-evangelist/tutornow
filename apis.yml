@@ -1,7 +1,25 @@
 aid: tutornow
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tutornow.png
 name: Tutornow
-description: Tutornow is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Tutornow (tutornow.it) is an Italian online tutoring platform ("ripetizioni") that connects
+  students from elementary school through university with qualified tutors across 150+ subjects, including
+  math, physics, chemistry, and languages. It offers individual and group online lessons starting around
+  €15/hour, homework help, exam and university preparation, academic-recovery programs, and specialized
+  support for students with learning differences (DSA/BES), with 250,000+ lesson hours delivered and 20,000+
+  tutors across major Italian cities. Tutornow is a consumer (B2C) education service and publishes no public
+  developer API, API documentation, or developer portal — this profile is maintained as a company record in
+  the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/tutornow/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,20 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
 tags:
 - Company
+- Education
+- EdTech
+- Tutoring
+- Online Learning
+- Italy
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
